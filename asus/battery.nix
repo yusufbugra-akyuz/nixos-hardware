@@ -14,7 +14,7 @@ in
       type = lib.types.int;
     };
     enableChargeUptoScript = lib.mkOption {
-      description = "Whether to add charge-upto to environment.systemPackages. `charge-upto 75` temporarily sets the charge limit to 75%.";
+      description = "Whether to add charge-upto to environment.systemPackages. `charge-upto 60` temporarily sets the charge limit to 60%.";
       default = true;
       type = lib.types.bool;
     };
