@@ -83,7 +83,11 @@
         dell-latitude-e7240 = import ./dell/latitude/e7240;
         dell-optiplex-3050 = import ./dell/optiplex/3050;
         dell-poweredge-r7515 = import ./dell/poweredge/r7515;
-        dell-precision-3490 = import ./dell/precision/3490;
+        dell-precision-3490 =
+          deprecated "1491" "dell-precision-3490"
+            (import ./dell/precision/3490);
+        dell-precision-3490-nvidia = import ./dell/precision/3490/nvidia;
+        dell-precision-3490-intel = import ./dell/precision/3490/intel;
         dell-precision-3541 = import ./dell/precision/3541;
         dell-precision-5490 = import ./dell/precision/5490;
         dell-precision-5530 = import ./dell/precision/5530;
@@ -124,6 +128,7 @@
         framework-11th-gen-intel = import ./framework/13-inch/11th-gen-intel;
         framework-12th-gen-intel = import ./framework/13-inch/12th-gen-intel;
         framework-13th-gen-intel = import ./framework/13-inch/13th-gen-intel;
+        framework-12-13th-gen-intel = import ./framework/12-inch/13th-gen-intel;
         framework-intel-core-ultra-series1 = import ./framework/13-inch/intel-core-ultra-series1;
         framework-13-7040-amd = import ./framework/13-inch/7040-amd;
         framework-amd-ai-300-series = import ./framework/13-inch/amd-ai-300-series;
@@ -153,6 +158,7 @@
         hp-notebook-14-df0023 = import ./hp/notebook/14-df0023;
         intel-nuc-8i7beh = import ./intel/nuc/8i7beh;
         lenovo-ideacentre-k330 = import ./lenovo/ideacentre/k330;
+        lenovo-ideapad-14imh9 = import ./lenovo/ideapad/14imh9;
         lenovo-ideapad-15alc6 = import ./lenovo/ideapad/15alc6;
         lenovo-ideapad-15arh05 = import ./lenovo/ideapad/15arh05;
         lenovo-ideapad-15ach6 = import ./lenovo/ideapad/15ach6;
@@ -198,6 +204,7 @@
         lenovo-thinkpad-p14s-amd-gen2 = import ./lenovo/thinkpad/p14s/amd/gen2;
         lenovo-thinkpad-p14s-amd-gen3 = import ./lenovo/thinkpad/p14s/amd/gen3;
         lenovo-thinkpad-p14s-amd-gen4 = import ./lenovo/thinkpad/p14s/amd/gen4;
+        lenovo-thinkpad-p14s-amd-gen5 = import ./lenovo/thinkpad/p14s/amd/gen5;
         lenovo-thinkpad-p14s-intel-gen3 = import ./lenovo/thinkpad/p14s/intel/gen3;
         lenovo-thinkpad-p14s-intel-gen5 = import ./lenovo/thinkpad/p14s/intel/gen5;
         lenovo-thinkpad-p16s-amd-gen1 = import ./lenovo/thinkpad/p16s/amd/gen1;
@@ -247,6 +254,7 @@
         lenovo-thinkpad-x1-10th-gen = import ./lenovo/thinkpad/x1/10th-gen;
         lenovo-thinkpad-x1-11th-gen = import ./lenovo/thinkpad/x1/11th-gen;
         lenovo-thinkpad-x1-12th-gen = import ./lenovo/thinkpad/x1/12th-gen;
+        lenovo-thinkpad-x1-13th-gen = import ./lenovo/thinkpad/x1/13th-gen;
         lenovo-thinkpad-x1-extreme = import ./lenovo/thinkpad/x1-extreme;
         lenovo-thinkpad-x1-extreme-gen2 = import ./lenovo/thinkpad/x1-extreme/gen2;
         lenovo-thinkpad-x1-extreme-gen3 = import ./lenovo/thinkpad/x1-extreme/gen3;
