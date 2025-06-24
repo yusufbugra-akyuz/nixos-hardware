@@ -64,6 +64,7 @@
             (import ./dell/e7240);
         dell-g3-3779 = import ./dell/g3/3779;
         dell-g3-3579 = import ./dell/g3/3579;
+        dell-inspiron-3442 = import ./dell/inspiron/3442;
         dell-inspiron-14-5420 = import ./dell/inspiron/14-5420;
         dell-inspiron-5509 = import ./dell/inspiron/5509;
         dell-inspiron-5515 = import ./dell/inspiron/5515;
@@ -166,6 +167,7 @@
         lenovo-ideapad-16ahp9 = import ./lenovo/ideapad/16ahp9;
         lenovo-ideapad-z510 = import ./lenovo/ideapad/z510;
         lenovo-ideapad-slim-5 = import ./lenovo/ideapad/slim-5;
+        lenovo-ideapad-s5-16iah8 = import ./lenovo/ideapad/16iah8;
         lenovo-ideapad-s145-15api = import ./lenovo/ideapad/s145-15api;
         lenovo-legion-15ach6 = import ./lenovo/legion/15ach6;
         lenovo-legion-15ach6h = import ./lenovo/legion/15ach6h;
@@ -179,6 +181,7 @@
         lenovo-legion-16achg6-nvidia = import ./lenovo/legion/16achg6/nvidia;
         lenovo-legion-16aph8 = import ./lenovo/legion/16aph8;
         lenovo-legion-16arha7 = import ./lenovo/legion/16arha7;
+        lenovo-legion-16iah7h = import ./lenovo/legion/16iah7h;
         lenovo-legion-16ithg6 = import ./lenovo/legion/16ithg6;
         lenovo-legion-16irx8h = import ./lenovo/legion/16irx8h;
         lenovo-legion-16irx9h = import ./lenovo/legion/16irx9h;
@@ -353,9 +356,11 @@
         tuxedo-aura-15-gen1 = import ./tuxedo/aura/15/gen1;
         tuxedo-infinitybook-v4 = import ./tuxedo/infinitybook/v4;
         tuxedo-infinitybook-pro14-gen7 = import ./tuxedo/infinitybook/pro14/gen7;
+        tuxedo-infinitybook-pro14-gen9-amd = import ./tuxedo/infinitybook/pro14/gen9/amd;
         tuxedo-infinitybook-pro14-gen9-intel = import ./tuxedo/infinitybook/pro14/gen9/intel;
         tuxedo-pulse-14-gen3 = import ./tuxedo/pulse/14/gen3;
         tuxedo-pulse-15-gen2 = import ./tuxedo/pulse/15/gen2;
+        xiaomi-redmibook-15-pro-2021 = import ./xiaomi/redmibook/15-pro-2021;
         xiaomi-redmibook-16-pro-2024 = import ./xiaomi/redmibook/16-pro-2024;
 
         common-cpu-amd = import ./common/cpu/amd;
@@ -379,7 +384,15 @@
         common-gpu-intel = import ./common/gpu/intel;
         common-gpu-intel-disable = import ./common/gpu/intel/disable.nix;
         common-gpu-nvidia = import ./common/gpu/nvidia/prime.nix;
+        common-gpu-nvidia-ada-lovelace = import ./common/gpu/nvidia/ada-lovelace;
+        common-gpu-nvidia-ampere = import ./common/gpu/nvidia/ampere;
+        common-gpu-nvidia-fermi = import ./common/gpu/nvidia/fermi;
+        common-gpu-nvidia-kepler = import ./common/gpu/nvidia/kepler;
+        common-gpu-nvidia-maxwell = import ./common/gpu/nvidia/maxwell;
+        common-gpu-nvidia-pascal = import ./common/gpu/nvidia/pascal;
+        common-gpu-nvidia-turing = import ./common/gpu/nvidia/turing;
         common-gpu-nvidia-sync = import ./common/gpu/nvidia/prime-sync.nix;
+        common-gpu-nvidia-prime = import ./common/gpu/nvidia/prime.nix;
         common-gpu-nvidia-nonprime = import ./common/gpu/nvidia;
         common-gpu-nvidia-disable = import ./common/gpu/nvidia/disable.nix;
         common-hidpi = import ./common/hidpi.nix;
